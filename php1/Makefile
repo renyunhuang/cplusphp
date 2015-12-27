@@ -20,7 +20,7 @@ OPTIONS = -DFLOCK
 
 # Generic compiler options
 #CFLAGS	=	-g -O2 -Wall -DDEBUG $(OPTIONS)
-CFLAGS =	-O2 $(OPTIONS)
+CFLAGS =	-g -O2 $(OPTIONS)
 CC =	gcc
 # If you don't have gcc, use these instead:
 #CFLAGS =	-g $(OPTIONS) 
